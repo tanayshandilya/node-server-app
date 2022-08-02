@@ -1,0 +1,37 @@
+{
+  "name": "server-app",
+  "version": "1.0.0",
+  "description": "This application is a boilerplate code for simple server side node js application with api approach. There are folder structures and handlers defined for quick reference and faster application build.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": "git+https://github.com/tanayshandilya/server-app.git",
+  "keywords": [
+    "server",
+    "app",
+    "node"
+  ],
+  "author": "Tanay Shandilya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanayshandilya/server-app/issues"
+  },
+  "homepage": "https://github.com/tanayshandilya/server-app#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3",
+    "session-file-store": "^1.5.0",
+    "uuid": "^8.3.2"
+  },
+  "private": false,
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
